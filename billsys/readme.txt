@@ -26,7 +26,9 @@ Aussmption :
 
 Aproach : 
 /products GET service to list all products : producs configured in application.properties, list can be edited or extended
-/bills	GET	service will take the order and customer information and will return the bill object
+/bills	POST	service will take the order information and will return the bill object
 
 Conclusion :
-Code is tested locally using JUNIT testecase	
+Code is tested locally using JUNIT testcase, can be deployed on tomcat.
+Maven dependancies are pricked from other projects, which load lot of unnecessary jars, which will be refined in next version.
+
